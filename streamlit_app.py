@@ -15,9 +15,9 @@ def decimal_to_binary(decimal_num):
         return None
 
 def main():
-    st.title("2進数と10進数の相互変換アプリ")
+    st.title("2進数⇔10進数　変換")
 
-    conversion_option = st.selectbox("変換オプション", ("2進数から10進数へ", "10進数から2進数へ"))
+    conversion_option = st.selectbox("選択してください", ("2進数から10進数へ", "10進数から2進数へ"))
 
     if conversion_option == "2進数から10進数へ":
         binary_input = st.text_input("2進数を入力してください:", "1001")
